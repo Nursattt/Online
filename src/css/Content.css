@@ -1,0 +1,9 @@
+.content{
+    width: 1270px;
+    height: 1110px;
+    margin: 10px auto;
+    padding: 15px;
+    background: #6b6767;
+    border-radius: 5px;
+    z-index: 1;
+}

@@ -1,0 +1,40 @@
+nav{
+    margin-top: 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 265px;
+    font-size: 20px;
+    border: 1px solid white;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #5e5d5d;
+    color: white;
+    transition: .5s;
+    font-family: "Calibri";
+    text-decoration: none;
+}
+
+.links:nth-child(1):hover{
+    transform: scale(1.2);
+}
+
+.links:hover{
+    border: 1px solid black;
+    background: #969696;
+    color: black;
+}
+
+.links:nth-child(1){
+    background: #3b3b3b;
+}
+
+.links:nth-child(1):hover{
+    transform: scale(1.07);
+    border: 1px solid black;
+    background: #c2c1c1;
+    color: black;
+}

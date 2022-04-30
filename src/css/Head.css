@@ -1,0 +1,71 @@
+.head{
+    display: flex;
+    width: 1300px;
+    height: 200px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+    background: #6b6767;
+    border-radius: 5px;
+}
+
+.head .divLogo .imgLogo{
+    width: 200px;
+    height: 200px;
+    margin-top: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.head .search input{
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid #999;
+    background: inherit;
+}
+
+.head .search input::placeholder{
+    color: white;
+}
+
+.head .search button{
+    width: 80px;
+    height: 50px;
+    margin: 0 0 0 7px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid #9e9e9e;
+    box-shadow: 0 0 2px white;
+    cursor: pointer;
+    transition: .4s;
+    background: #888;
+}
+
+.head .search button:hover{
+    transform: translateY(-4px);
+    background: #6d6d6d;
+    color: white;
+    box-shadow: 0 0 8px white;
+}
+
+.head .search button:active{
+    transform: translateY(1px);
+    background: #777;
+    color: black;
+    box-shadow: 0 0 1px white;
+}
+
+.head .contacts{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.head .contacts span{
+    font-size: 22px;
+    color: orange;
+}

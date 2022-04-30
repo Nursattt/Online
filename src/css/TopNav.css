@@ -1,0 +1,37 @@
+.topnav{
+    display: flex;
+    height: 50px;
+    font-size: 18px;
+}
+
+.topnav .btns{
+    display: flex;
+    width: 149px;
+    margin-right: 3px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background: #c20404;
+    color: white;
+    transition: .3s;
+}
+
+.topnav .btns:hover{
+    background: #f13434;
+}
+
+.topnav .btns:nth-child(1){
+    width: 255px;
+    margin-right: 10px;
+    font-size: 21px;
+    background: #2d2c2c;
+}
+
+.topnav .btns:nth-child(1):hover{
+    border: 1px solid black;
+    background: #777373;
+    color: black;
+}
